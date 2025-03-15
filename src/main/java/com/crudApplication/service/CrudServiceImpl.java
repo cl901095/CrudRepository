@@ -39,7 +39,7 @@ public class CrudServiceImpl implements CrudService{
 	
 	public String deleteProduct(int id) {
 		productRepository.deleteById(id);
-		return "product deleted "+id;
+		return "product deleted succfully ID= "+id;
 	}
 	
 	public Product updateProduct(Product product) {
